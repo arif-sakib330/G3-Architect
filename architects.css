@@ -131,6 +131,18 @@ main {
     font-weight: 600;
 }
 
+/* sponsor */
+.sponsor{
+    text-align: center;
+}
+.sponsor-img{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    align-items: center;
+    gap: 20px;
+}
+
 /* responsive */
 
 /* small device*/
@@ -141,7 +153,8 @@ main {
 
     nav,
     .teams-container,
-    .facts-card-container{
+    .facts-card-container,
+    .sponsor-img{
         flex-direction: column;
     }
 
@@ -154,7 +167,8 @@ main {
         margin-left: 20px;
         margin-right: 20px;
     }
-    .facts-card-container{
+    .facts-card-container,
+    .sponsor-img{
         gap:20px;
     }
 }
@@ -162,11 +176,20 @@ main {
 /* medium device */
 @media screen and (min-width:577px) and (max-width:992px) {
     .header {
-        padding: 30px;
+        padding:40px 50px;
     }
 
     nav,
-    .teams-container {
+    .teams-container,
+    .facts-card-container,
+    .sponsor-img {
         flex-direction: column;
+    }
+     
+    .facts-card-container,
+    .sponsor-img
+    {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 }

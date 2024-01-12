@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,600;1,600&display=swap') * {
-    font-family: "Work Sans", sans-serif;
-}
 
 .btn-primary {
     border-radius: 8px;
@@ -140,7 +137,7 @@ main {
     border-radius: 8px;
     background: #FF900E;
     color: #FFF;
-    width: 342px;
+    width: 300gitpx;
     text-align: center;
     position: relative;
     bottom: 140px;

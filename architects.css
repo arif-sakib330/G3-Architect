@@ -62,7 +62,7 @@ nav li a {
 .banner-description {
     color: #727272;
 }
-img{
+.banner img{
     width: 100%;
 }
 
@@ -85,4 +85,42 @@ img{
     nav{
         flex-direction: column;
     }
+}
+
+/* main */
+main{
+    max-width: 1440px;
+    margin: 0px auto;
+}
+/* team */
+.teams-container{
+    display: flex;
+    align-items: center;
+}
+.teams-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:1.5rem;
+}
+.team-contant{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.team-title{
+    font-size: 3.5rem;
+}
+.Quick-list{
+    color: #727272;
+    font-weight: 500;
+}
+.of-Our{
+    color: #131313;
+    font-weight: 700;
+}
+.Features{
+    color: #FF900E;
+    font-weight: 700;
+}
+.team-description{
+    width: 537px;
 }
